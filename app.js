@@ -22,7 +22,7 @@ db.on("error", console.error.bind(console, 'mongo connection error'))
 //EJS
 app.use(expressLayouts);
 app.set('view engine', 'ejs');
-
+ 
 //Body-parser middleware
 app.use(express.urlencoded({extended:false}));
 
